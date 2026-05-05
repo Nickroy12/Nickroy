@@ -7,10 +7,8 @@ import Orbit from "@/ui/Orbit";
 
 const About = () => {
   return (
-    <div className="relative w-11/12 md:w-10/12 mx-auto flex flex-col md:flex-row items-center gap-10 py-10">
-      
-      {/* Orbit Background */}
-      <Orbit className="absolute left-0 top-10 opacity-20 pointer-events-none" />
+    <div className="lg:relative w-11/12 md:w-10/12 mx-auto flex flex-col md:flex-row items-center gap-10 py-10">
+
 
       <div className="flex justify-center items-center w-full md:w-1/2">
         <Image
