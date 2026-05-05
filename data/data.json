@@ -1,0 +1,82 @@
+[
+  {
+    "id": 1,
+    "step": 1,
+    "technology": "HTML",
+    "type": "Frontend",
+    "what_you_learn": "Website structure",
+    "image": "/icon/html.png"
+  },
+  {
+    "id": 2,
+    "step": 2,
+    "technology": "CSS",
+    "type": "Frontend",
+    "what_you_learn": "Design, layout, responsive UI",
+    "image": "/icon/css.png"
+  },
+  {
+    "id": 3,
+    "step": 3,
+    "technology": "JavaScript",
+    "type": "Frontend Logic",
+    "what_you_learn": "Interactivity, DOM, logic building",
+    "image": "/icon/js.png"
+  },
+  {
+    "id": 4,
+    "step": 4,
+    "technology": "Tailwind CSS",
+    "type": "Styling Framework",
+    "what_you_learn": "Fast UI design, utility-first CSS",
+    "image": "/icon/tailwindcss.png"
+  },
+  {
+    "id": 5,
+    "step": 5,
+    "technology": "React",
+    "type": "Frontend Library",
+    "what_you_learn": "Component-based UI, SPA development",
+    "image": "/icon/react.png"
+  },
+  {
+    "id": 6,
+    "step": 6,
+    "technology": "Next.js",
+    "type": "Full-stack Framework",
+    "what_you_learn": "SSR, routing, API routes, SEO friendly apps",
+    "image": "/icon/next.png"
+  },
+  {
+    "id": 7,
+    "step": 7,
+    "technology": "Node.js",
+    "type": "Backend Runtime",
+    "what_you_learn": "Server-side JavaScript execution",
+    "image": "/icon/node.png"
+  },
+  {
+    "id": 8,
+    "step": 8,
+    "technology": "Express",
+    "type": "Backend Framework",
+    "what_you_learn": "REST API, server creation",
+    "image": "/icon/express.png"
+  },
+  {
+    "id": 9,
+    "step": 9,
+    "technology": "MongoDB",
+    "type": "Database",
+    "what_you_learn": "Data storage, CRUD operations",
+    "image": "/icon/mongodb.png"
+  },
+  {
+    "id": 10,
+    "step": 10,
+    "technology": "Better Auth",
+    "type": "Authentication",
+    "what_you_learn": "Login/signup, user security, auth system",
+    "image": "/icon/betterauth.png"
+  }
+]

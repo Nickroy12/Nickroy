@@ -39,10 +39,8 @@ const Banner = () => {
               Nick Roy
             </h1>
 
-            <p className="max-w-2xl opacity-70">
-              NixLab is my dream. It is not just a digital agency. It will be a
-              lab of ideas—where creativity is born, skills are refined, and
-              dreams are transformed into reality.
+            <p className="max-w-2xl ">
+           I am a professional Front-End Developer
             </p>
 
             <div className="flex gap-6 justify-center md:justify-start">
@@ -68,7 +66,7 @@ const Banner = () => {
 
           {/* Right Side */}
           <div className="flex items-center justify-center">
-                  <Image src={avatar} width={540} className="lg:absolute bottom-0" height={540} alt="avatar" />
+                  <Image src={avatar} width={540} className="md:absolute bottom-0" height={540} alt="avatar" />
           </div>
 
         </div>
