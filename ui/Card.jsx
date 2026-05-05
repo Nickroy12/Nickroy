@@ -22,7 +22,7 @@ const Card = ({ data }) => {
       {/* Card Content */}
       <div
         className="relative flex flex-col items-center justify-center w-full h-full rounded-xl
-        bg-white dark:bg-neutral-900 text-black dark:text-white
+        bg-white dark:bg-base-100 text-black dark:text-white
         transition-transform duration-500 ease-out
         cursor-pointer will-change-transform"
       >

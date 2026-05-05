@@ -1,6 +1,7 @@
 import About from "@/components/home/About";
 import Banner from "@/components/home/Banner";
 import Knowlege from "@/components/home/Knowlege";
+import TimeLine from "@/components/TimeLine";
 import Image from "next/image";
 
 export default function Home() {
@@ -9,6 +10,7 @@ export default function Home() {
       <Banner/>
       <About/>
       <Knowlege/>
+      <TimeLine/>
     </div>
   );
 }

@@ -5,7 +5,7 @@ import Marquee from 'react-fast-marquee'
 const Knowlege = () => {
   return (
         <div className="overflow-hidden p-5">
-      <h1 className="text-4xl font-bold mb-6">What I Know</h1>
+      <h1 className="text-4xl dark:text-white font-bold mb-6">What I Know</h1>
 
       <div className="rotate-2 space-y-5">
         <Marquee pauseOnHover={true}>

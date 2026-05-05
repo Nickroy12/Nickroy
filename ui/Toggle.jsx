@@ -13,7 +13,7 @@ const ThemeToggle = () => {
   }, []);
 
   const toggleTheme = () => {
-    const newTheme = theme === "dark" ? "light" : "dark";
+    const newTheme = theme === "black" ? "light" : "black";
 
     document.documentElement.setAttribute("data-theme", newTheme);
     localStorage.setItem("theme", newTheme);
@@ -26,7 +26,7 @@ const ThemeToggle = () => {
       className="btn btn-ghost text-xl"
       aria-label="Toggle Theme"
     >
-      {theme === "dark" ? <FiSun /> : <FiMoon />}
+      {theme === "black" ? <FiSun /> : <FiMoon />}
     </button>
   );
 };

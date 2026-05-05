@@ -3,11 +3,13 @@ import mypic from "@/public/nickroy.png";
 import Link from "next/link";
 import { TiSocialLinkedin } from "react-icons/ti";
 import { FaGithub, FaWhatsapp } from "react-icons/fa6";
+import OrbitParticles from "../TimeLine";
 
 const About = () => {
   return (
     <div className="w-11/12 md:w-10/12 mx-auto flex flex-col md:flex-row items-center gap-10 py-10">
       <div className="flex justify-center w-full md:w-1/2">
+      
         <Image
           src={mypic}
           alt="nick"
