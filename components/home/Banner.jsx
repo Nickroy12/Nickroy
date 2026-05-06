@@ -44,19 +44,14 @@ const Banner = () => {
             </p>
 
             <div className="flex gap-6 justify-center md:justify-start">
-              <Link href="/">
+              <Link href="https://wa.me/8801918416250">
                 <button className="btn btn-outline gap-2 group">
                   <FaPaperclip className="opacity-0 -translate-y-2 group-hover:opacity-100 group-hover:translate-y-0 transition-all duration-300" />
                   Connect
                 </button>
               </Link>
 
-              <Link href="/">
-                <button className="btn btn-outline gap-2 group">
-                  <FaPaperclip className="opacity-0 -translate-y-2 group-hover:opacity-100 group-hover:translate-y-0 transition-all duration-300" />
-                  Hire Me
-                </button>
-              </Link>
+        
             </div>
 
             <div className="animate-bounce text-2xl mt-6">
