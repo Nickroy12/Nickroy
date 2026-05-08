@@ -27,7 +27,7 @@ const qualifications = [
 
 const QualificationPage = () => {
   return (
-    <motion.div initial={{opacity:0 , y: -80}} whileInView={{opacity:1 ,y:0}} transition={{ duration: 2 }}    viewport={{ once: true }} className="w-11/12 md:w-10/12 mx-auto py-10">
+    <motion.div initial={{opacity:0 , y: 80}} whileInView={{opacity:1 ,y:0}} transition={{ duration: 2 }}    viewport={{ once: true }} className="w-11/12 md:w-10/12 mx-auto py-10">
       <h2 className="text-2xl md:text-3xl font-bold mb-8 text-center md:text-left">
          Qualification
       </h2>
