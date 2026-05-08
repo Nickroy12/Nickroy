@@ -5,7 +5,7 @@ import mypic from "@/public/nickroy.png";
 import Link from "next/link";
 import { TiSocialLinkedin } from "react-icons/ti";
 import { FaGithub, FaWhatsapp } from "react-icons/fa6";
-// import Orbit from "@/ui/Orbit"; // remove if not using
+import { motion } from "framer-motion";
 
 const About = () => {
   const handleDownload = () => {
@@ -25,15 +25,20 @@ const About = () => {
 
       {/* Image Section */}
       <div className="flex justify-center items-center w-full md:w-1/2">
-        <Image
+      <motion.div             initial={{ opacity: 0, x: -80 }}
+            whileInView={{ opacity: 1, x: 0 }}
+            transition={{ duration: 2 }}    viewport={{ once: true }}>
+               <Image
           src={mypic}
           alt="nick"
           className="drop-shadow-2xl rounded-xl"
         />
+      </motion.div>
+ 
       </div>
 
       {/* Content Section */}
-      <div className="relative flex flex-col space-y-5 text-center md:text-left md:w-1/2 z-10">
+      <motion.div initial={{opacity:0 , y: -80}} whileInView={{opacity:1 ,y:0}} transition={{ duration: 2 }}    viewport={{ once: true }} className="relative flex flex-col space-y-5 text-center md:text-left md:w-1/2 z-10">
 
         <h2 className="text-4xl font-bold">About Me</h2>
 
@@ -53,7 +58,7 @@ const About = () => {
             className="flex items-center gap-2 px-5 py-2 rounded-full 
             bg-gradient-to-r from-gray-400 via-white to-slate-300 
             text-black shadow-lg 
-            hover:scale-105 transition-all duration-300"
+            hover:scale-105 transition-all duration-300 cursor-pointer"
           >
             Download CV
           </button>
@@ -74,7 +79,7 @@ const About = () => {
           </div>
 
         </div>
-      </div>
+      </motion.div>
     </div>
   );
 };
