@@ -5,7 +5,7 @@ import { FaCode } from "react-icons/fa6"
 export const Navbar = () => {
   const links =<>
     <Link  href={'/'}>Home</Link>
-    <Link href={'/portfolio'}>Portfolio</Link>
+    <Link href="#portfolio">Portfolio</Link>
     <Link href={'/'}>Home</Link>
   </>
   return (

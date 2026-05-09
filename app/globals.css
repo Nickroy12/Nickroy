@@ -5,3 +5,6 @@ themes: light --default, black --prefersdark;
 }
 
 @custom-variant dark (&:where([data-theme=black], [data-theme=black] *));
+html {
+  scroll-behavior: smooth;
+}
