@@ -1,10 +1,10 @@
 [
   {
     "id": 1,
-    "title": "GitHub Issues Tracker",
-    "link": "https://githubissuetracker12.netlify.app/",
-    "image": "/Project/githubtracker.png",
-    "tool": ["HTML", "CSS","Javascript"]
+    "title": "Pranipremi - animal adopt Platform",
+    "link": "https://pranipremi-client.vercel.app/",
+    "image": "/Project/pranipremi.png",
+    "tool": ["NextJS", "BetterAuth","NodeJS","ExpressJS","MongoDB"]
   },
   {
     "id": 2,
@@ -15,17 +15,10 @@
   },
   {
     "id": 3,
-    "title": "DigiTool",
-    "link": "https://digitoolsshop.netlify.app/",
-    "image": "/Project/devtools.png",
-    "tool": ["React", "TailwindCSS", "DaisyUI", "Toastify"]
-  },
-  {
-  "id": 4,
-  "title": "KeenKeeper",
-  "link": "https://kin-keeper-orcin.vercel.app/",
-  "image": "/Project/keenkeper.png",
-  "tool": ["React", "TailwindCSS", "DaisyUI", "Firebase"]
-}
+    "title": "rannabanna - A recipe Sharing app",
+    "link": "https://full-stack-10.vercel.app/",
+    "image": "/Project/rannabanna.png",
+    "tool": ["NextJS", "BetterAuth","NodeJS","ExpressJS","MongoDB"]
+  }
 
 ]
