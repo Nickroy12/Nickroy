@@ -21,8 +21,10 @@ const About = () => {
   };
 
   return (
-    <div className="lg:relative w-11/12 md:w-10/12 mx-auto flex flex-col md:flex-row items-center gap-10 py-10">
-
+    <div className="lg:relative w-11/12 md:w-10/12 mx-auto flex flex-col md:flex-row items-center gap-10 py-10 relative">
+      {/* Glow Effects */}
+      <div className="w-80 h-80 absolute left-10 top-16 -translate-y-1/2 rounded-full blur-3xl opacity-30 bg-secondary animate-pulse pointer-events-none -z-10"></div>
+      <div className="w-80 h-80 absolute right-10 top-1/2 -translate-y-1/2 rounded-full blur-3xl opacity-30 bg-accent animate-pulse pointer-events-none -z-10"></div>
       {/* Image Section */}
       <div className="flex justify-center items-center w-full md:w-1/2">
       <motion.div             initial={{ opacity: 0, x: -80 }}

@@ -37,7 +37,7 @@ const Banner = () => {
             initial={{ opacity: 0, x: -80 }}
             whileInView={{ opacity: 1, x: 0 }}
             transition={{ duration: 3 }}
-               viewport={{ once: true }}
+            viewport={{ once: true }}
           >
             <div className="flex flex-col space-y-5 text-center md:text-left">
               <span className="badge badge-primary px-4 py-3 text-white animate-bounce w-fit mx-auto md:mx-0">
@@ -69,10 +69,10 @@ const Banner = () => {
 
           {/* Right Side */}
           <motion.div
-                         initial={{ opacity: 0 }}
+            initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             transition={{ duration: 0.8 }}
-            
+
           >
             <Image
               src={avatar}

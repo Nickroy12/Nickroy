@@ -4,21 +4,26 @@
     "title": "Pranipremi - animal adopt Platform",
     "link": "https://pranipremi-client.vercel.app/",
     "image": "/Project/pranipremi.png",
-    "tool": ["NextJS", "BetterAuth","NodeJS","ExpressJS","MongoDB"]
+    "tool": ["NextJS", "BetterAuth","NodeJS","ExpressJS","MongoDB"],
+    "description": "Pranipremi is a platform dedicated to facilitating animal adoptions. It connects animal lovers with pets in need of a home, providing a streamlined process for browsing and adopting pets.",
+    "challenges": ["Implementing a secure authentication flow using BetterAuth.", "Designing an intuitive UI for pet browsing.", "Integrating database operations smoothly with Next.js API routes."]
   },
   {
     "id": 2,
     "title": "Gronthagar Book Store",
     "link": "https://gronthagar-wine.vercel.app/",
     "image": "/Project/gronthagar.png",
-    "tool": ["NextJS", "BetterAuth", "Swiper", "DaisyUI"]
+    "tool": ["NextJS", "BetterAuth", "Swiper", "DaisyUI"],
+    "description": "Gronthagar Book Store is an online bookstore application. It provides users with a vast collection of books to browse, search, and purchase with a user-friendly interface.",
+    "challenges": ["Optimizing image loading for a large number of book covers.", "Building a responsive and attractive carousel using Swiper.", "Ensuring smooth user navigation and state management."]
   },
   {
     "id": 3,
     "title": "rannabanna - A recipe Sharing app",
     "link": "https://full-stack-10.vercel.app/",
     "image": "/Project/rannabanna.png",
-    "tool": ["NextJS", "BetterAuth","NodeJS","ExpressJS","MongoDB"]
+    "tool": ["NextJS", "BetterAuth","NodeJS","ExpressJS","MongoDB"],
+    "description": "Rannabanna is a recipe sharing application where users can discover new recipes, share their own culinary creations, and interact with other food enthusiasts.",
+    "challenges": ["Handling user-generated content and image uploads securely.", "Developing a scalable backend architecture with Node.js and Express.", "Creating complex search and filter functionalities for recipes."]
   }
-
 ]
