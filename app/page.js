@@ -4,6 +4,7 @@ import Knowlege from "@/components/home/Knowlege";
 import Portfolio from "@/components/home/Portfolio";
 import QualificationPage from "@/components/home/Qualification";
 import TimeLine from "@/components/TimeLine";
+import Contact from "@/components/home/Contact";
 import Image from "next/image";
 
 export default function Home() {
@@ -17,6 +18,7 @@ export default function Home() {
       </section>
       <QualificationPage/>
       <TimeLine/>
+      <Contact/>
     </div>
   );
 }
