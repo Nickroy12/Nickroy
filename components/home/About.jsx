@@ -10,7 +10,7 @@ import { motion } from "framer-motion";
 const About = () => {
   const handleDownload = () => {
     const url =
-      "https://drive.google.com/uc?export=download&id=1dXpQhbUHa7NdUPgYpSTN1r08ulYbK6Y8";
+      "https://drive.google.com/file/d/1HPw451cp9QJq951ha1wBWWHRAOyheHOz/view?usp=sharing";
 
     const link = document.createElement("a");
     link.href = url;
