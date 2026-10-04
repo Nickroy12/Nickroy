@@ -49,7 +49,7 @@ const Banner = () => {
               </h1>
 
               <p className="max-w-2xl">
-                I am a professional Front-End Developer
+                I am a professional MERN Developer
               </p>
 
               <div className="flex gap-6 justify-center md:justify-start">
